@@ -35,7 +35,5 @@ pipeline {
     }
   }
 
-  post {
-    always { echo 'Build finished. Check artifacts & test reports.' }
-  }
+  post { always { echo 'Build finished. Check artifacts & test reports.' } }
 }
